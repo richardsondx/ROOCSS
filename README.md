@@ -56,7 +56,11 @@ Content_debug.css
 
 ### Template:
 
-I will soon add some template so that you can play with the template in Firebug to learn the basics of ROOCSS
+I will soon add some template and example so that you can play with the template in Firebug to learn the basics of ROOCSS.
+
+### Rails GEM:
+
+I will soon release a gem to implement ROOCSS into your rails app.
 
 ### The Benefits Of ROOCSS
 
