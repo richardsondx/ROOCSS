@@ -2,7 +2,7 @@
 
 ROOCSS is an ideology created by Richardson Dackam that make it easier to build stylesheet for medium and large ruby on rails websites.
 
-### Guideline: An Introduction to Rich Object Oriented CSS (ROOCSS)
+### Guideline: An Introduction to ROOCSS
 
 Forget the BEST PRACTISES you knew and apply the ROOCSS (pronounced "RO CSS") ideology:
 * Separation of structure from skin
