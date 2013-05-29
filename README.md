@@ -89,7 +89,7 @@ I will soon release a gem to implement ROOCSS into your rails app.
 
 - Can I remove unused styles?
 
-> Totally. If you are done building you're website and you don't need some element feel free to remove them.
+> Totally. If you are done building your website and you don't need some element feel free to remove them.
 
 - Why you shouldn't use IDs?
 
