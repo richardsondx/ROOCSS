@@ -1,0 +1,29 @@
+/* GRID.css
+
+The Grid system should be used to create classes that define the width of container,
+the space between container or content elements  and the position of container elements.*/
+/* e.g: .rowOf1, .rowOf2, .insideRowOf1, .right, .left; */
+
+/* Grid System */
+.rowOf1{}
+.rowOf2{}
+.rowOf3{}
+
+/* Use .insideRowOfX if the space inside a row has a specific width
+e.g: .insideRowOfX{} */
+.insideRowOf1{width:60%}
+
+/* position an element on the right or the left of its container*/
+.right{float:right; position: relative;}
+.left{float:left;position: relative;}
+
+/* Add interspace between element */
+.interspaceLeft{margin-left: 11px;}
+.interspaceRight{margin-right: 11px;}
+.interspaceTop{margin-top: 11px;}
+.interspaceBottom{margin-bottom: 11px;}
+
+
+/* extending grids to allow a unit that takes the width of its content */
+.media{width:auto;}
+

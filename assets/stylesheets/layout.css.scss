@@ -1,0 +1,22 @@
+/* LAYOUT */
+
+/* Define Your Global Width Here In Percentage */
+
+body { 
+	margin-bottom: 0px;
+	background-color: #D0D0D0;
+}
+
+.globalWidth{width:90%;}
+.fullwidth{width:100%;}
+
+.navbar{
+	width: 100%; 
+	height: 66px;
+}
+
+.footer{
+	margin-bottom: 0px;
+	float: none;
+    clear: both;
+}
