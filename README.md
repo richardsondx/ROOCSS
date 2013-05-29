@@ -1,6 +1,6 @@
 ### Welcome to ROOCSS.org : Rich Object Oriented CSS Pages.
 
-ROOCSS is an ideology that make it easier to build stylesheet for medium and large ruby on rails websites.
+ROOCSS is an ideology created by Richardson Dackam that make it easier to build stylesheet for medium and large ruby on rails websites.
 
 ### Guideline: An Introduction to Rich Object Oriented CSS (ROOCSS)
 
@@ -88,6 +88,8 @@ I will soon add some template so that you can play with the template in Firebug 
 
 
 ### Authors and Credit
+
+Richardson Dackam is a Senior Ruby on Rails Developer located in Toronto, Ontario, Canada.
 
 You can contact the author at:
 - [@richardsondx](http://www.twitter.com/richardsondx) on Twitter and [linkedin.com/in/richardsondx](http://linkedin.com/in/richardsondx) on LinkedIN
