@@ -50,6 +50,7 @@
 <li>CSS with the suffix "_debug" define the look</li>
 <li>(Almost) <strong>Only use classes</strong>
 </li>
+<li>Use classes everywhere else, Only use IDs in Layout.css</li>
 <li>Reuse your classes</li>
 </ul><pre><code>Assets
 - Images/
@@ -155,6 +156,12 @@ Grid.css</p>
 <li>Why you shouldn't use IDs?</li>
 </ul><blockquote>
 <p>Using an ID in a selector is similar to add !important; it is a trump card that will override all other types of selector. You probably don’t always want this. It also encourages you to create new id that use the same css over and over again while classes help to redeuce the amount of code created.By using classes you set yourself to create css style that are reusable.</p>
+</blockquote>
+
+<ul>
+<li>Why you should only use IDs in Layout.CSS?</li>
+</ul><blockquote>
+<p>IDs should only be used if you do not plan to reuse it for another selector. The Layout.css define how your website NAVBAR, HEADER and FOOTER are going to look. It will be the same across all your pages and  will be only used once in the layout/application.html.erb file.</p>
 </blockquote>
 
 <h3>
