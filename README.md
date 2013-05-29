@@ -10,7 +10,8 @@ Forget the BEST PRACTISES you knew and apply the ROOCSS (pronounced "RO CSS") id
 * **Grid set the width** and **Content set the height**
 * CSS with the suffix "_debug" define the look
 * (Almost) **Only use classes**
-* Name your classes
+* Use classes everywhere else, Only use IDs in Layout.css
+* Reuse your classes
 
 ```
 Assets
@@ -90,6 +91,13 @@ I will soon release a gem to implement ROOCSS into your rails app.
 
 > Totally. If you are done building you're website and you don't need some element feel free to remove them.
 
+- Why you shouldn't use IDs?
+
+> Using an ID in a selector is similar to add !important; it is a trump card that will override all other types of selector. You probably don’t always want this. It also encourages you to create new id that use the same css over and over again while classes help to redeuce the amount of code created.By using classes you set yourself to create css style that are reusable. 
+
+- Why you should only use IDs in Layout.CSS?
+
+> IDs should only be used if you do not plan to reuse it for another selector. The Layout.css define how your website NAVBAR, HEADER and FOOTER are going to look. It will be the same across all your pages and  will be only used once in the layout/application.html.erb file. Note that using semantically better markup ( <header>, <footer>)  will help search engine crawlers construct a better image of your website.
 
 ### Authors and Credit
 
